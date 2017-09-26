@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yiling Kao</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  html, body {
+    max-height:100%;
+    background-color: #D3D3D3;
+  }
+  .carousel,.item,.active {
+    max-height: 100%;
+  }
+  .carousel-inner {
+    max-height: 100%;
+  }
+  .item img {
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .me img {
+    margin: -13% 0 -5% 0;
+  }
+  .beach img {
+    margin: -10% 0 -8% 0;
+  }
+  .dog img {
+    margin: -20% 0 -6% 0;
+  }
+
+  .sec {
+    font-size: 200%;
+    color: black;
+    background-color: white;
+    padding: 0.5% 2% 0.5% 2%;
+  }
+  #aboutPics {
+    padding: 1% 0 0 5%;
+  }
+  #contact, .proj {
+    text-align: center;
+  }
+  h2 {
+    padding: 0;
+    margin-top: 0;
+    color: gray;
+  }
+  #line {
+    align: center;
+    border-color: gray;
+    width: 95%;
+  }
+  .bullet {
+    width: 4%;
+    padding-right: 1%;
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Yiling Kao</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#myCarousel">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section3">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+     <!--Wrapper for slides-->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="me">
+        <img src="yilingkao.jpg" alt="Yiling Kao">
+      </div>
+        <div class="carousel-caption">
+          <h3>Yiling Kao (pronounced Ee-ling Gow)</h3>
+          <p class="pic">Byodo-In Temple, Kaneohe, Hawaii</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="beach">
+        <img src="beach.jpg" alt="Beach">
+      </div>
+        <div class="carousel-caption">
+          <h3>I like sunsets and beaches.</h3>
+          <p class="pic">Crystal Cove State Park, Newport Beach, California</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="dog">
+        <img src="dog.jpg" alt="Dog">
+      </div>
+        <div class="carousel-caption">
+          <h3>My dog inspires me. He likes sunsets but not beaches.</h3>
+          <p class="pic">Viewpoint Trail, Irvine, California</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<div id="section2" class="container-fluid">
+  <br><br><br>
+  <div class="sec">
+    <h1>About</h1>
+    <!--<h2>Yiling Kao (pronounced Ee-ling Gow)</h2>-->
+    <div id="aboutPics">
+    <p><img src="grad.png" alt="grad cap" class="bullet" id="grad">University of California, Berkeley: Computer Science, 2020</p>
+    <p><img src="campanile.jpg" alt="Campanile" class="bullet" id="campanile">Web Application Developer at <a href="https://www.law.berkeley.edu/">Boalt School of Law</a></p>
+    <p><img src="web.png" alt="web" class="bullet" id="web">Webmaster for the <a href="https://tasa.berkeley.edu/">Taiwanese American Student Association @Berkeley</a></p>
+    <p><img src="paw.png" alt="PNC" class="bullet" id="pnc">Treasurer and Volunteer for <a href="https://pawsandclaws.berkeley.edu/">Paws and Claws of Berkeley</a></p>
+    <p><img src="heart.png" alt="heart" class="bullet" id="heart">Fan of dogs, fruits, beaches, and Disneyland</p>
+  </div>
+<hr id="line">
+<p id="contact">
+  <a href="https://drive.google.com/file/d/0B7o4s0pa0u7cTjJydWkzRjBGX0k/view?usp=sharing" target="_blank">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/yiling-kao" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/ylkao" target="_blank">Github</a><br>
+  ylkao [at] berkeley.edu
+  <br>
+</p>
+  </div>
+</div>
+<br><br><br>
+</div>
+<div id="section3" class="container-fluid">
+  <br><br><br>
+  <div class="sec">
+  <h1>Projects</h1>
+  <br>
+  <p class="proj">Will be updated soon!</p>
+  <br><br><br>
+</div>
+</div>
+<br><br><br>
+<br><br><br>
+</body>
+</html>
