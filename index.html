@@ -4,79 +4,15 @@
   <title>Yiling Kao</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
-  <style>
-  html, body {
-    max-height:100%;
-    background-color: #D3D3D3;
-  }
-  /*.carousel,.item,.active {
-    max-height: 100%;
-  }
-  .carousel-inner > .item >img {
-  min-height : 500px;
-  max-height : 500px;
-  width : 100%;
-  }
-  .carousel-inner {
-    max-height: 100%;
-  }*/
-  .carousel .item {
-    height: 1000px;
-  }
- .item img {
-    width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-  }
- .me img {
-    margin: -13% 0 -5% 0;
-  }
-  .beach img {
-    margin: -10% 0 -8% 0;
-  }
-  .dog img {
-    margin: -20% 0 -6% 0;
-  }
-  .sec {
-    font-size: 200%;
-    color: black;
-    background-color: white;
-    padding: 0.5% 2% 0.5% 2%;
-  }
-  #aboutPics {
-    padding: 1% 0 0 5%;
-  }
-  #contact, .proj {
-    text-align: center;
-  }
-  h2 {
-    padding: 0;
-    margin-top: 0;
-    color: gray;
-  }
-  #line {
-    align: center;
-    border-color: gray;
-    width: 95%;
-  }
-  .bullet {
-    width: 4%;
-    padding-right: 1%;
-  }
-  .panel-title {
-    font-size: 1em;
-  }
-  .panel-body, .panel-footer {
-    font-size: 0.8em;
-  }
-  </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -96,6 +32,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#photo-portfolio">Photo Portfolio</a></li>
         </ul>
       </div>
     </div>
@@ -114,7 +51,7 @@
     <div class="carousel-inner">
       <div class="item active">
         <div class="me">
-        <img src="yilingkao.JPG" alt="Yiling Kao">
+        <img src="images/yilingkao.JPG" alt="Yiling Kao">
       </div>
         <div class="carousel-caption">
           <h3>Yiling Kao (pronounced Ee-ling Gow)</h3>
@@ -124,7 +61,7 @@
 
       <div class="item">
         <div class="beach">
-        <img src="beach.JPG" alt="Beach">
+        <img src="images/beach.JPG" alt="Beach">
       </div>
         <div class="carousel-caption">
           <h3>I like sunsets and beaches.</h3>
@@ -134,7 +71,7 @@
 
       <div class="item">
         <div class="dog">
-        <img src="dog.JPG" alt="Dog">
+        <img src="images/dog.JPG" alt="Dog">
       </div>
         <div class="carousel-caption">
           <h3>My dog inspires me. He likes sunsets but not beaches.</h3>
@@ -159,32 +96,33 @@
   <br><br><br>
   <div class="sec">
     <h1>About</h1>
-    <!--<h2>Yiling Kao (pronounced Ee-ling Gow)</h2>-->
     <div id="aboutPics">
-    <p><img src="grad.png" alt="grad cap" class="bullet" id="grad">University of California, Berkeley: Computer Science, 2020</p>
-    <p><img src="campanile.jpg" alt="Campanile" class="bullet" id="campanile">Web Application Developer at <a href="https://www.law.berkeley.edu/">Boalt School of Law</a></p>
-    <p><img src="web.png" alt="web" class="bullet" id="web">Webmaster for the <a href="https://tasa.berkeley.edu/">Taiwanese American Student Association @Berkeley</a></p>
-    <p><img src="paw.png" alt="PNC" class="bullet" id="pnc">Treasurer and Volunteer for <a href="https://pawsandclaws.berkeley.edu/">Paws and Claws of Berkeley</a></p>
-    <p><img src="heart.png" alt="heart" class="bullet" id="heart">Fan of dogs, fruits, beaches, and Disneyland</p>
-  </div>
-<hr id="line">
-<p id="contact">
-  <a href="https://drive.google.com/file/d/0B7o4s0pa0u7cTjJydWkzRjBGX0k/view?usp=sharing" target="_blank">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/yiling-kao" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/ylkao" target="_blank">Github</a><br>
-  ylkao [at] berkeley.edu
-  <br>
-</p>
+      <p><img src="images/grad.png" alt="grad cap" class="bullet" id="grad">University of California, Berkeley: Computer Science and Cognitive Science, 2020</p>
+      <p><img src="images/microsoft.jpg" alt="microsoft" class="bullet" id="web">Software Engineer at Microsoft</p>
+      <p><img src="images/campanile.jpg" alt="Campanile" class="bullet" id="campanile">Web Application Developer at Berkeley Law School</p>
+      <p><img src="images/web.png" alt="web" class="bullet" id="campanile">Former President of <a href="https://csmentors.berkeley.edu/">Computer Science Mentors</a> at UC Berkeley</p>
+      <p><img src="images/camera.svg" alt="camera" class="bullet" id="campanile">Amateur photographer, tutor, swim coach</p>
+      <p><img src="images/heart.png" alt="heart" class="bullet" id="heart">Fan of dogs, fruits, beaches, and Disneyland</p>
+    </div>
+
+    <hr id="line">
+    <p id="contact">
+      <a href="https://drive.google.com/file/d/0B7o4s0pa0u7cTjJydWkzRjBGX0k/view?usp=sharing" target="_blank">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/yiling-kao" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/ylkao" target="_blank">Github</a><br>
+      ylkao [at] berkeley.edu
+      <br>
+    </p>
   </div>
 </div>
+<!-- end of ABOUT section -->
 <br><br><br>
-</div>
+
 <div id="projects" class="container-fluid">
   <br><br><br>
   <div class="sec">
   <h1>Projects</h1>
   <br>
-  <!--<p class="proj">Will be updated soon!</p>-->
 
   <div class="panel-group">
     <div class="panel panel-default">
@@ -241,54 +179,218 @@
     </div>
   </div>
   <div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#positivity">Positivity Place</a>
-      </h4>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#positivity">Positivity Place</a>
+        </h4>
+      </div>
+      <div id="positivity" class="panel-collapse collapse">
+        <div class="panel-body"><b>About:</b> Founded Flask web application to promote destressing and cheerful thinking. Main feature: "Positivity Feed", where users can scroll through en "endless" stream of inspirational quotes, images, cute animal pictures, and other positive content (similar to Facebook Newsfeed). Other features: "About" us page, "Games" page with embedded destressing games, "Exercise" page with embedded YouTube videos and other exercise suggestions, "Food" page with tools to find comfort food at nearby restaurants, "Vent Pillow" page where users can type their thoughts in, and an "Other" page featuring personal favorite ways to de-stress. <br><br>
+        <b>Implementation:</b> Constructed front-end of website and embedded content using Bootstrap/HTML and back-end using Flask framework with Python and JavaScript. To implement the continuous scrolling and web scraping needed for the Positivity Feed, used BeautifulSoup to upload image and quote URLs to PyMongo databases, Flask to connect to databases and retrieve data, and AJAX requests to load and format content whenever the user reaches the bottom of the page.<br><br>
+        <b>Background:</b> At CalHacks 4.0, my partner and I wanted to create something to help make people happy. As college students, we've noticed a culture of pessimism and low self-esteem that has become prevalent in social media and daily interactions (especially during midterms and finals for students). To address this issue, we built this website to support and motivate people who are feeling stressed or have had a bad day. Though there's still some features we'd like to add, we hope that it cheers up your day!<br><br>
+        <b>Future</b> (will be implemented soon!):
+        <ul> <li>Survey/check-in: How are you feeling right now? 1 - 10 (Only ask one time per website click)</li>
+              <li>More content for the Positivity Feed, including jokes, news articles, YouTube videos, etc.</li>
+              <li>Option to include/exclude certain content using checkboxes</li>
+              <li>Option to favorite/save/share content</li></ul></div>
+        <div class="panel-footer"><b>Tools:</b> Flask/Python, Javascript, BeautifulSoup (web scraping), MongoDB/PyMongo, Bootstrap/HTML/CSS. See <a href="https://github.com/ylkao/calhacks">here</a> for more info!</div>
+      </div>
     </div>
-    <div id="positivity" class="panel-collapse collapse">
-      <div class="panel-body"><b>About:</b> Founded Flask web application to promote destressing and cheerful thinking. Main feature: "Positivity Feed", where users can scroll through en "endless" stream of inspirational quotes, images, cute animal pictures, and other positive content (similar to Facebook Newsfeed). Other features: "About" us page, "Games" page with embedded destressing games, "Exercise" page with embedded YouTube videos and other exercise suggestions, "Food" page with tools to find comfort food at nearby restaurants, "Vent Pillow" page where users can type their thoughts in, and an "Other" page featuring personal favorite ways to de-stress. <br><br>
-      <b>Implementation:</b> Constructed front-end of website and embedded content using Bootstrap/HTML and back-end using Flask framework with Python and JavaScript. To implement the continuous scrolling and web scraping needed for the Positivity Feed, used BeautifulSoup to upload image and quote URLs to PyMongo databases, Flask to connect to databases and retrieve data, and AJAX requests to load and format content whenever the user reaches the bottom of the page.<br><br>
-      <b>Background:</b> At CalHacks 4.0, my partner and I wanted to create something to help make people happy. As college students, we've noticed a culture of pessimism and low self-esteem that has become prevalent in social media and daily interactions (especially during midterms and finals for students). To address this issue, we built this website to support and motivate people who are feeling stressed or have had a bad day. Though there's still some features we'd like to add, we hope that it cheers up your day!<br><br>
-      <b>Future</b> (will be implemented soon!):
-      <ul> <li>Survey/check-in: How are you feeling right now? 1 - 10 (Only ask one time per website click)</li>
-            <li>More content for the Positivity Feed, including jokes, news articles, YouTube videos, etc.</li>
-            <li>Option to include/exclude certain content using checkboxes</li>
-            <li>Option to favorite/save/share content</li></ul></div>
-      <div class="panel-footer"><b>Tools:</b> Flask/Python, Javascript, BeautifulSoup (web scraping), MongoDB/PyMongo, Bootstrap/HTML/CSS. See <a href="https://github.com/ylkao/calhacks">here</a> for more info!</div>
+  </div>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#database">Database</a>
+        </h4>
+      </div>
+      <div id="database" class="panel-collapse collapse">
+        <div class="panel-body"><b>About:</b> Built a small-scale interactive relational database management system and domain specific language with which a user can enter commands such as create table, load, select, etc., similar to SQL. <br><br><b>Implementation:</b> Formed design team of 4 to create a high-level design of the database implementation. Wrote a design document to outline classes, methods, and data structures as well as advantages, disadvantages, etc. Through pair-programming, worked with a partner to implement classes to process user input and handle conditional statements (Parse, Operator), select and store data using generic ArrayLists and arrays (Table, Row, Column), and combine tables to create their Cartesian Product using a natural inner join (IndexTable). Also performed error-checking to handle malformed queries and special values like NULL or NOVALUE. </div>
+        <div class="panel-footer"><b>Tools:</b> Java</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#bearmaps">BearMaps</a>
+        </h4>
+      </div>
+      <div id="bearmaps" class="panel-collapse collapse">
+        <div class="panel-body"><b>About:</b> Implemented the back-end of a web mapping application similar to Google Maps. To use the program, a user opens an HTML file in their web browser that displays a map of the city of Berkeley, and the interface supports scrolling, zooming, and route finding. Back-end Java program takes in a URL and generates an image corresponding to a map of the region specified inside the URL.<br><br>
+        <b>Implementation:</b> Constructed a Quadtree to perform map rastering and convert information into a pixel-by-pixel image, Graph class and A* algorithm to create the map and do route searching, and a Trie to implement an Autocomplete system to match partial query strings from user input so that when the user starts typing into the search bar, he/she is returned a list of locations that have that input as a prefix (Ex.: "Mont" returns "Montague's Gourmet Sandwiches, Montano Velo, Montclair Elementary School...")</div>
+        <div class="panel-footer"><b>Tools: </b> Java</div>
+      </div>
     </div>
   </div>
 </div>
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#database">Database</a>
-      </h4>
-    </div>
-    <div id="database" class="panel-collapse collapse">
-      <div class="panel-body"><b>About:</b> Built a small-scale interactive relational database management system and domain specific language with which a user can enter commands such as create table, load, select, etc., similar to SQL. <br><br><b>Implementation:</b> Formed design team of 4 to create a high-level design of the database implementation. Wrote a design document to outline classes, methods, and data structures as well as advantages, disadvantages, etc. Through pair-programming, worked with a partner to implement classes to process user input and handle conditional statements (Parse, Operator), select and store data using generic ArrayLists and arrays (Table, Row, Column), and combine tables to create their Cartesian Product using a natural inner join (IndexTable). Also performed error-checking to handle malformed queries and special values like NULL or NOVALUE. </div>
-      <div class="panel-footer"><b>Tools:</b> Java</div>
-    </div>
-  </div>
 </div>
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#bearmaps">BearMaps</a>
-      </h4>
-    </div>
-    <div id="bearmaps" class="panel-collapse collapse">
-      <div class="panel-body"><b>About:</b> Implemented the back-end of a web mapping application similar to Google Maps. To use the program, a user opens an HTML file in their web browser that displays a map of the city of Berkeley, and the interface supports scrolling, zooming, and route finding. Back-end Java program takes in a URL and generates an image corresponding to a map of the region specified inside the URL.<br><br>
-      <b>Implementation:</b> Constructed a Quadtree to perform map rastering and convert information into a pixel-by-pixel image, Graph class and A* algorithm to create the map and do route searching, and a Trie to implement an Autocomplete system to match partial query strings from user input so that when the user starts typing into the search bar, he/she is returned a list of locations that have that input as a prefix (Ex.: "Mont" returns "Montague's Gourmet Sandwiches, Montano Velo, Montclair Elementary School...")</div>
-      <div class="panel-footer"><b>Tools: </b> Java</div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
+<!-- end of Projects section -->
 <br><br><br>
+
+<div id="photo-portfolio" class="container-fluid">
+  <br><br><br>
+  <div class="sec">
+    <h1>Photo Portfolio</h1>
+
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/20161221_144426.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/20161224_124037.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/20161221_165257.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_0669-26.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1359-45.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1485-133.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1552-176.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1688-36.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1880-54.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_1974.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2072-152.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2170.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2074-153.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2223-10.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2308-79.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2389-130.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2435-16.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_2507-72.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3121-1.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3136-15.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3401-7.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3554-104.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3613-144.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3903-4.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3915-143.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_4085-229.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_3919-145.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_4209-304.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_4216-307.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_4499-56.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_4702.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_7202.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_7615.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_7671.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_7882.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/IMG_8057.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="images/portfolio/P1070252.JPG" alt=""></div>
+        </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end of Photo Portfolio -->
+<br><br><br>
+
+<script> 
+  // Code for gallery selection
+  // Source: https://codepen.io/vhanla/pen/PxjZvj
+  var gallery = document.querySelector('#gallery');
+  var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+  var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+  var resizeAll = function () {
+      var altura = getVal(gallery, 'grid-auto-rows');
+      var gap = getVal(gallery, 'grid-row-gap');
+      gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+          var el = item;
+          el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+      });
+  };
+  gallery.querySelectorAll('img').forEach(function (item) {
+      item.classList.add('byebye');
+      if (item.complete) {
+          console.log(item.src);
+      }
+      else {
+          item.addEventListener('load', function () {
+              var altura = getVal(gallery, 'grid-auto-rows');
+              var gap = getVal(gallery, 'grid-row-gap');
+              var gitem = item.parentElement.parentElement;
+              gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+              item.classList.remove('byebye');
+          });
+      }
+  });
+  window.addEventListener('resize', resizeAll);
+  gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+      item.addEventListener('click', function () {        
+          item.classList.toggle('full');        
+      });
+  });
+</script>
+
 </body>
 </html>
